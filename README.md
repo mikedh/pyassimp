@@ -1,0 +1,2 @@
+# pyassimp
+Fork of PyAssimp

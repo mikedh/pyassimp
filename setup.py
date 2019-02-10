@@ -14,6 +14,6 @@ setup(name='pyassimp',
       url='https://github.com/mikedh/pyassimp',
       maintainer='Mike Dawson-Haggerty',
       maintainer_email='mikedh@kerfed.com',
-      packages=['assimp'],
+      packages=['pyassimp'],
       requires=['numpy']
       )

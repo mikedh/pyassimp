@@ -24,9 +24,10 @@ RUN bash assimp.bash
 ENV PATH=/opt/python/cp36-cp36m/bin:$PATH
 
 # we need numpy to build assimp
-RUN pip install numpy cython
+RUN pip install numpy cython 
 
 # build the python-fcl module
 COPY . /pyassimp
+
 RUN cd /pyassimp && python setup.py build_ext
 

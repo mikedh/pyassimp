@@ -19,8 +19,3 @@ cmake .
 make -j4
 # install assimp
 make install
-
-# clean up
-cd ..
-rm -rf assimp
-rm -rf v4.1.0.zip

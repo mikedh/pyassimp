@@ -6,7 +6,7 @@ from distutils.core import setup
 
 README=''
 
-setup(name='pyassimp',
+setup(name='assimp',
       version='4.1.4',
       license='ISC',
       description='Python bindings for the Open Asset Import Library (ASSIMP)',
@@ -14,6 +14,6 @@ setup(name='pyassimp',
       url='https://github.com/mikedh/pyassimp',
       maintainer='Mike Dawson-Haggerty',
       maintainer_email='mikedh@kerfed.com',
-      packages=['pyassimp'],
+      packages=['assimp'],
       requires=['numpy']
       )

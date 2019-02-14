@@ -4,7 +4,7 @@ import unittest
 class PyAssimpTest(unittest.TestCase):
 
     def test_import(self):
-        import pyassimp
+        import assimp
 
 if __name__ == '__main__':
     unittest.main()

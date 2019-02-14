@@ -4,7 +4,7 @@ env:
     cd docker && bash cmake.bash && bash assimp.bash"
   - CIBW_TEST_REQUIRES="pytest"
   - CIBW_TEST_COMMAND="pytest {project}/tests"
-  - CIBW_SKIP="cp34-* cp35-*"
+  - CIBW_BUILD="cp36-* cp27-*"
 matrix:
   include:
   - dist: trusty

@@ -4,7 +4,6 @@ env:
     numpy cython && cd docker && bash cmake.bash && bash assimp.bash"
   - CIBW_TEST_REQUIRES="pytest"
   - CIBW_TEST_COMMAND="pytest {project}/tests"
-  - TWINE_USERNAME=mikedh
 matrix:
   include:
   - dist: trusty
